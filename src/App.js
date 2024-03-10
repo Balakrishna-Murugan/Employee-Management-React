@@ -1,10 +1,13 @@
-import React from 'react';
-import EmployeeManagement from './EmployeeManagement';
+import React, { useState } from 'react';
+import LoginPage from './LoginPage';
 
 const App = () => {
+  
   return (
     <div>
-      <EmployeeManagement />
+    
+      <LoginPage />
+      
     </div>
   );
 };

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
+
 const EmployeeManagement = () => {
   const [employees, setEmployees] = useState([]);
   const [name, setName] = useState('');
@@ -39,7 +40,9 @@ const EmployeeManagement = () => {
   };
 
   return (
+   
     <div>
+       
       <h1>Employee Management System</h1>
       <form onSubmit={handleSubmit}>
         <input
