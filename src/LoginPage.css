@@ -1,0 +1,40 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background-image: url('C:\Users\HP\Downloads\WhatsApp Image 2024-02-27 at 6.33.05 PM.jpeg'); /*Replace with your image path */
+    /*background-image: url('F:\Google Photos and Videos\IMG_20190507_172730.jpg'); /* Replace with your image path */
+    background-image: url('C:\Users\HP\Downloads\WhatsApp Image 2024-03-06 at 7.10.03 PM.jpeg');
+     background-size: cover; 
+}
+
+.login-form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
+   
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+}
+
+.login-form input {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
